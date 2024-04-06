@@ -55,15 +55,15 @@ li a:hover:not(.active) {
   clear: both;
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .column.side, .column.main {
     width: 100%;
   }
-}
+} */
 
 /* Style the list of publications */
 ul.pub {
   list-style-type: none;
-  padding-left: 10px;
+  padding-left: 30px;
   padding-right: 30px;
 }
