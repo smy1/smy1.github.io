@@ -2,7 +2,7 @@
 .box {
   margin: 20px;
   /*border: 15px;*/
-  padding: 50px;
+  padding: 50px 50px 75px;
 }
 
 /* Style fonts */
@@ -27,6 +27,7 @@ h3 {
 .header {
   background-color: #FFFFE0;
   text-align: center;
+  font-size: 50px;
   padding: 15px;
 }
 
@@ -35,8 +36,6 @@ h3 {
   background-color: #FFFFE0; /* lightyellow */
   list-style-type: none; 
   text-align: center;
-  margin: 0;
-  padding-top: 15px;
   padding-bottom: 20px;
   border-bottom: 1.5px solid black;
 }
@@ -100,7 +99,7 @@ ul.pub {
 .footer {
   text-align: left;
   /*padding-top: 15px;*/
-  padding-left: 50px;
+  padding-left: 130px;
   padding-top: 10px;
   border-top: 1.5px solid black;
 }
