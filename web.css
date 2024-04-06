@@ -1,3 +1,8 @@
+/* Style font type */
+.p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Style the header */
 .header {
   background-color: #FFFFE0;
