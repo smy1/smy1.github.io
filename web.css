@@ -23,3 +23,7 @@ li a.active {
 li a:hover:not(.active) {
   background-color: #ddd;
 }
+
+ul.pub {
+  list-style-type: none;
+}
