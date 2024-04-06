@@ -31,14 +31,6 @@ h3 {
   padding: 15px;
 }
 
-/* Style the footer */
-.footer {
-  text-align: left;
-  /*padding-top: 15px;*/
-  padding-left: 50px;
-  border-top: 1.5px solid black;
-}
-
 /* Style the navigation bar*/
 .nav {
   background-color: #FFFFE0; /* lightyellow */
@@ -103,4 +95,13 @@ ul.pub {
   list-style-type: none;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+
+/* Style the footer */
+.footer {
+  text-align: left;
+  /*padding-top: 15px;*/
+  padding-left: 50px;
+  border-top: 1.5px solid black;
 }
