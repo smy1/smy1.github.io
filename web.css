@@ -1,7 +1,7 @@
 /* Reset some default browser styles */
 body, h1, h2, p, u1, li {
   margin: 0;
-  padding: 0;
+  padding: 10px;
 }
 
 /* Apply some basic styles */
@@ -25,7 +25,7 @@ h1 {
 nav u1 {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10px;
   overflow: hidden;
   background-colour: #fff;
   border-bottom: 2px solid black;
