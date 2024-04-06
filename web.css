@@ -1,5 +1,5 @@
 /* Style a wrapping box */
-div {
+.box {
   margin: 20px;
   /*border: 15px;*/
   padding-left: 50px;
