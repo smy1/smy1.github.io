@@ -1,3 +1,11 @@
+/* Style a wrapping box */
+div {
+  margin: 20px;
+  /*border: 15px;*/
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 /* Style fonts */
 h1, h2, h3, li, p {
   font-size: 18px;
