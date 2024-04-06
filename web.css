@@ -1,16 +1,19 @@
-/* Style font type */
-li, p {
+/* Style fonts */
+h1, h2, h3, li, p {
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+.p1 {
+  font-size: 16px;
+}
 h1 {
   font-size: 35px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
   font-size: 26px;
-  font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+  font-size: 20px;
 }
 
 /* Style the header */
@@ -44,6 +47,14 @@ li a.active {
 
 li a:hover:not(.active) {
   background-color: #ddd;
+}
+
+/* Style the footer */
+.footer {
+  text-align: left;
+  padding-top: 15px;
+  padding-left: 50px;
+  border-top: 1.5px solid black;
 }
 
 /* Style the main body */
