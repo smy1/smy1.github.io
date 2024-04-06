@@ -1,10 +1,11 @@
 /* Style font type */
 li, p {
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
+  font-size: 35px;
   font-family: Arial, Helvetica, sans-serif;
 }
 h2 {
@@ -78,6 +79,6 @@ li a:hover:not(.active) {
 /* Style the list of publications */
 ul.pub {
   list-style-type: none;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
