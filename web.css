@@ -2,7 +2,7 @@
 .box {
   margin: 20px;
   /*border: 15px;*/
-  padding: 25px 50px 50px;
+  padding: 25px 100px 50px;
   background-color: #FFF0F5; /* lavender blush*/
 }
 
@@ -68,14 +68,14 @@ li a:hover:not(.active) {
 /* Side column */
 .column.side {
   width: 33%;
-  padding-left: 50px;
+  /*padding-left: 50px;*/
   padding-right: 10px;
 }
 /* Main column */
 .column.main {
   width: 67%;
   padding-left: 10px;
-  padding-right: 50px;
+  /*padding-right: 50px;*/
 }
 /* Clear floats after the columns */
 .row::after {
@@ -91,10 +91,10 @@ li a:hover:not(.active) {
 } */
 
 /* Style the list of publications */
-ul.pub {
+/*ul.pub {
   list-style-type: none;
   padding: 0px 50px 0px;
-}
+}*/
 
 /* Style the footer */
 .footer {
