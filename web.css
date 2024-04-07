@@ -1,5 +1,5 @@
 /* Style a wrapping box */
-.box {
+.whole {
   margin: 20px;
   /*border: 15px;*/
   padding: 0px 120px 20px;
@@ -17,14 +17,14 @@ h1, h2, h3, li, p {
   /*line-height: normal;*/
 }
 h1 {
-  font-size: 35px;
+  font-size: 30px;
 }
 h2 {
-  font-size: 26px;
+  font-size: 25px;
 }
-h3 {
+/*h3 {
   font-size: 20px;
-}
+}*/
 
 /* Style the header */
 .header {
@@ -61,12 +61,13 @@ h3 {
 /* Style the main body */
 * {
   box-sizing: border-box;
-  background-color: #FFFFFF; 
+  /*background-color: #FFFFFF; */
 }
 /* Create two unequal columns that floats next to each other */
 .column {
   float: left;
   padding: 10px;
+  background-color: #FFFFFF;
 }
 /* Side column */
 .column.side {
