@@ -3,7 +3,7 @@
   margin: 20px;
   /*border: 15px;*/
   padding: 25px 100px 50px;
-  background-color: #FFF0F5; /* lavender blush*/
+  /*background-color: #FFF0F5; /* lavender blush*/
 }
 
 /* Style fonts */
@@ -14,6 +14,7 @@ h1, h2, h3, li, p {
 }
 .p1 {
   font-size: 16px;
+  line-height: 1;
 }
 h1 {
   font-size: 35px;
@@ -37,7 +38,7 @@ h3 {
   background-color: #FFF0F5; /* lavender blush*/
   list-style-type: none; 
   text-align: center;
-  padding: 20px 0px 15px;
+  padding: 10px 0px 10px;
   border-bottom: 1.5px solid black;
 }
 /* Navigating links*/
@@ -54,6 +55,7 @@ li a.active {
 
 li a:hover:not(.active) {
   background-color: #FFE4E1; /* misty rose */
+  padding: 15px;
 }
 
 /* Style the main body */
@@ -62,9 +64,9 @@ li a:hover:not(.active) {
   background-color: #FFF0F5; /* lavender blush*/
 }
 /* Create two unequal columns that floats next to each other */
-/*.column {
+.column {
   float: left;
-}*/
+}
 /* Side column */
 .column.side {
   width: 33%;
@@ -91,15 +93,15 @@ li a:hover:not(.active) {
 } */
 
 /* Style the list of publications */
-/*ul.pub {
+ul.pub {
   list-style-type: none;
-  padding: 0px 50px 0px;
-}*/
+  /*padding: 0px 50px 0px;*/
+}
 
 /* Style the footer */
 .footer {
   text-align: left;
-  padding: 10px 120px 0px 0px;
+  padding: 10px 0px 0px 120px;
   border-top: 1.5px solid black;
   background-color: #FFF0F5; /* lavender blush*/
 }
