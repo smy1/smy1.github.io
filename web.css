@@ -1,11 +1,3 @@
-/* Style a wrapping box */
-.whole {
-  margin: 20px;
-  /*border: 15px;*/
-  padding: 0px 120px 20px;
-  background-color: #FFFFFF;
-}
-
 /* Style fonts */
 h1, h2, h3, li, p {
   font-size: 20px;
@@ -38,7 +30,7 @@ h2 {
   background-color: #FFF0F5; /* lavender blush*/
   list-style-type: none; 
   text-align: center;
-  padding: 10px 0px 10px;
+  padding: 15px 0px 10px;
   border-bottom: 1.5px solid black;
 }
 /* Navigating links*/
@@ -58,6 +50,13 @@ h2 {
   padding: 15px;
 }
 
+/* Style a wrapping box */
+.whole {
+  margin: 20px;
+  /*border: 15px;*/
+  padding: 0px 120px 20px;
+  background-color: #FFFFFF;
+}
 /* Style the main body */
 * {
   box-sizing: border-box;
@@ -101,7 +100,7 @@ ul.pub {
   text-align: left;
   /*font-size: 16px;*/
   line-height: normal;
-  padding: 10px 0px 0px 120px;
+  padding: 0px 0px 10px 120px;
   border-top: 1.5px solid black;
   background-color: #FFF0F5; /* lavender blush*/
 }
