@@ -66,18 +66,15 @@ li a:hover:not(.active) {
 /* Create two unequal columns that floats next to each other */
 .column {
   float: left;
+  padding: 10px;
 }
 /* Side column */
 .column.side {
   width: 33%;
-  /*padding-left: 50px;*/
-  padding-right: 10px;
 }
 /* Main column */
 .column.main {
   width: 67%;
-  padding-left: 10px;
-  /*padding-right: 50px;*/
 }
 /* Clear floats after the columns */
 .row::after {
