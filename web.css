@@ -68,14 +68,14 @@ li a:hover:not(.active) {
 /* Side column */
 .column.side {
   width: 33%;
-  padding-left: 30px;
+  padding-left: 50px;
   padding-right: 10px;
 }
 /* Main column */
 .column.main {
   width: 67%;
   padding-left: 10px;
-  padding-right: 30px;
+  padding-right: 50px;
 }
 /* Clear floats after the columns */
 .row::after {
@@ -93,8 +93,7 @@ li a:hover:not(.active) {
 /* Style the list of publications */
 ul.pub {
   list-style-type: none;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0px 50px 0px;
 }
 
 /* Style the footer */
