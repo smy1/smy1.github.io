@@ -4,10 +4,6 @@ h1, h2, h3, li, p {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
-ul.a {
-  list-style-type: none;
-  font-size: 16px;
-}
 h1 {
   font-size: 30px;
 }
@@ -94,13 +90,17 @@ ul.pub {
   list-style-type: none;
   padding: 0px;
 }
-
 /* Style the footer */
 .footer {
   text-align: left;
-  /*font-size: 16px;*/
+  font-size: 16px;
   line-height: normal;
   padding: 0px 0px 10px 120px;
-  border-top: 1.5px solid black;
+  /*border-top: 1.5px solid black;*/
   background-color: #FFF0F5; /* lavender blush*/
+}
+ul.foot {
+  list-style-type: none;
+  padding: 0px;
+  /*font-size: 16px;*/
 }
