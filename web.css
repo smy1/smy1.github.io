@@ -96,8 +96,8 @@ ul.pub {
 }
 /* Style the footer */
 .footer {
-  position: fixed;
-  bottom: 0;
+  /*position: fixed;
+  bottom: 0;*/
   text-align: left;
   font-size: 14px;
   line-height: normal;
@@ -106,8 +106,8 @@ ul.pub {
   background-color: #FFF0F5; /* lavender blush*/
 }
 ul.foot {
-  position: fixed;
-  bottom: 0;
+  /*position: fixed;
+  bottom: 0;*/
   list-style-type: none;
   padding: 0px;
   font-size: 14px;
