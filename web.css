@@ -94,21 +94,20 @@ ul.pub {
   list-style-type: none;
   padding: 0px;
 }
+
 /* Style the footer */
 .footer {
-  /*position: fixed;
-  bottom: 0;*/
-  text-align: left;
-  font-size: 14px;
-  line-height: normal;
-  padding: 0px 0px 10px 120px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #FFF0F5; /* lavender blush*/
+   padding: 0px 0px 10px 120px;
+   text-align: left;
+   font-size: 14px;
   /*border-top: 1.5px solid black;*/
-  background-color: #FFF0F5; /* lavender blush*/
 }
 ul.foot {
-  /*position: fixed;
-  bottom: 0;*/
   list-style-type: none;
   padding: 0px;
-  font-size: 14px;
 }
