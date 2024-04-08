@@ -115,12 +115,12 @@ ul.pub {
    bottom: 0;
    width: 100%;
    background-color: #FFF0F5; /* lavender blush*/
-   padding: 0px 0px 5px 120px;
+   padding-left: 120px;
    text-align: left;
-   font-size: 10px;
   /*border-top: 1.5px solid black;*/
 }
 ul.foot {
   list-style-type: none;
+  font-size: 12px;
   padding: 0px;
 }
