@@ -121,6 +121,9 @@ ul.pub {
 }
 ul.foot {
   list-style-type: none;
-  font-size: 12px;
   padding: 0px;
+}
+.footer li {
+  font-size: 12px;
+  line-height: normal;
 }
