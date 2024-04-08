@@ -49,6 +49,13 @@ h2 {
   padding: 15px;
 }
 
+/* Style the body */
+body {
+   min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
+}
+
 /* Style a wrapping box */
 .whole {
   margin: 20px;
