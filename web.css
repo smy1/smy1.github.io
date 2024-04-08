@@ -20,18 +20,18 @@ h2 {
 /* Style the header */
 .header {
   background-color: #FFF0F5; /* lavender blush*/
-  position: fixed;
+  /*position: fixed;
   top: 0;
   width: 100%;
-  /*text-align: center;*/
-  /*padding: 10px;*/
+  text-align: center;
+  padding: 10px;*/
 }
 
 /* Style the navigation bar*/
 .nav {
-  position: fixed;
+  /*position: fixed;
   top: 0;
-  width: 100%;
+  width: 100%;*/
   background-color: #FFF0F5; /* lavender blush*/
   list-style-type: none; 
   text-align: center;
