@@ -98,6 +98,13 @@ body {
   }
 } */
 
+/* Style boxes of words */
+div.box {
+  width: 240px;
+  padding: 15px;
+  border: 1.5px solid;
+}
+
 /* Style lists without bullet points (for publication) */
 ul.pub {
   list-style-type: none;
