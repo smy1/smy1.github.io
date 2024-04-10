@@ -54,19 +54,19 @@ ul.nav {
 
 /* Style a scroll-up button at the bottom right corner */
 #myBtn {
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
+  position: fixed;
+  bottom: 10px; /* Place the button at the bottom of the page */
   right: 30px; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: #FFE4E1; /* Set a background color */
-  padding: 15px; /* Some padding */
-  font-size: 18px; /* Increase font size */
+  border: none;
+  outline: none;
+  background-color: #FFE4E1;
+  padding: 10px;
+  font-size: 18px;
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #FFDAB9;
 }
 
 /* Style a wrapping box for the body */
