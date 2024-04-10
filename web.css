@@ -28,14 +28,14 @@ p {
 
 /* Style the navigation bar*/
 .nav {
-  /*position: fixed;
-  top: 0;
-  width: 100%;*/
   background-color: #FFF0F5; /* lavender blush*/
   list-style-type: none; 
   text-align: center;
   padding: 15px 0px 10px;
   border-bottom: 1.5px solid black;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 /* Navigating links*/
 .nav li {
@@ -106,7 +106,7 @@ ul.pub {
 
 /* Style the footer */
 .footer {
-   /*position: fixed;*/
+   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
