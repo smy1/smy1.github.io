@@ -18,12 +18,12 @@ p {
 }
 
 /* Style the header */
-.header {
+/*.header {
   background-color: #FFF0F5; /* lavender blush*/
   position: fixed;
   top: 0;
   width: 100%;
-}
+}*/
 
 /* Style the navigation bar*/
 ul.nav {
@@ -32,9 +32,10 @@ ul.nav {
   text-align: center;
   padding: 15px 0px 10px;
   border-bottom: 1.5px solid black;
-  position: fixed;
+  /*position: fixed;
   top: 0;
-  width: 100%;
+  left: 0;
+  width: 100%;*/
 }
 /* Navigating links*/
 .nav li {
@@ -61,7 +62,7 @@ ul.nav {
 /* Style the main body */
 body {
    min-height: 400px;
-   padding-top: 80px;
+   padding-top: 100px;
    /*margin-bottom: 100px;*/
    padding-bottom: 100px;
    clear: both;
