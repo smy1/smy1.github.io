@@ -1,4 +1,4 @@
-*smy1.github.io*
+__smy1.github.io__
 
 _Note to self:_  
 Site will no longer be visible if the repository is changed to private.  
