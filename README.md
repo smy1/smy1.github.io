@@ -1,6 +1,6 @@
 __smy1.github.io__
 
-_Note to self:_  
-Site will no longer be visible if the repository is changed to private.  
-Changing the settings back to public is not enough.  
-As per https://github.com/orgs/community/discussions/23647 , we need to push any commit to a page branch to "reactivate" the site.
+_Super useful tip:_  
+1. Site will no longer be visible if the repository is changed to private.  
+2. Changing the settings back to public is not enough.  
+3. As per https://github.com/orgs/community/discussions/23647, we need to push any commit to a page branch to "reactivate" the site.
