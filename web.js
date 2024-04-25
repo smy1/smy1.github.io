@@ -24,7 +24,6 @@ let winal = Math.floor((Diff_In_Days - (katun * 7200) - (tun * 360)) / 20);
 let kin = Diff_In_Days % 20;
 
 document.getElementById("longcount").innerHTML = "Today's long count: " + baktun + "." + katun + "." + tun + "." + winal + "." + kin;
-//document.getElementById("longcount") = baktun + "." + katun + "." + tun + "." + winal + "." + kin;
 
 //Get Cholq'ij full name and number
 const cholqij_list = ["Ajpu'",
@@ -43,4 +42,3 @@ y = 13 * x;
 cholqij_num = Diff_In_Days - y + num;
 
 document.getElementById("cholqijfull").innerHTML = cholqij_num + " " + cholqij_day;
-//document.getElementById("cholqijfull") = cholqij_num + " " + cholqij_day;
