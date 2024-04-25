@@ -24,10 +24,6 @@ let tun = Math.floor((Diff_In_Days - (katun * 7200)) / 360);
 let winal = Math.floor((Diff_In_Days - (katun * 7200) - (tun * 360)) / 20);
 let kin = Diff_In_Days % 20;
 
-function mayan() {
-	document.getElementById("longcount").innerHTML = "Today's long count: " + baktun + "." + katun + "." + tun + "." + winal + "." + kin;
-}
-
 //Get Cholq'ij full name and number
 const cholqij_list = ["Ajpu'",
 	"Imox", "Iq'", "Aq'ab'al", "K'at", 
@@ -43,5 +39,8 @@ const num = 4; //This is the cholqij number of Baktun 13
 x = Math.floor(Diff_In_Days / 13);
 y = 13 * x;
 cholqij_num = Diff_In_Days - y + num;
-document.getElementById("cholqijfull").innerHTML = cholqij_num + " " + cholqij_day;
 
+function mayan() {
+	document.getElementById("longcount").innerHTML = "Today's long count: " + baktun + "." + katun + "." + tun + "." + winal + "." + kin;
+	document.getElementById("cholqijfull").innerHTML = "Today's Cholq'ij: " + cholqij_num + " " + cholqij_day;
+}
