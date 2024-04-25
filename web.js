@@ -1,3 +1,4 @@
+//CREATE A BUTTON THAT SCROLLS UP
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
@@ -6,3 +7,39 @@ function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+//PRODUCE CURRENT LONG COUNT
+//Get current date and Baktun 13 date
+const date1 = new Date("2012-12-21");
+const date2 = new Date();
+
+//Calculate the difference between current date and Baktun 13
+let Diff_In_Time = date2.getTime() - date1.getTime();
+let Diff_In_Days = Math.floor(Diff_In_Time / (1000 * 3600 * 24));
+
+const baktun = 13;
+let katun = Math.floor(Diff_In_Days / 7200);
+let tun = Math.floor((Diff_In_Days - (katun * 7200)) / 360);
+let winal = Math.floor((Diff_In_Days - (katun * 7200) - (tun * 360)) / 20);
+let kin = Diff_In_Days % 20;
+
+//document.getElementById("longcount").innerHTML = baktun + "." + katun + "." + tun + "." + winal + "." + kin;
+document.getElementById("longcount") = baktun + "." + katun + "." + tun + "." + winal + "." + kin;
+
+//Get Cholq'ij full name and number
+const cholqij_list = ["Ajpu'",
+	"Imox", "Iq'", "Aq'ab'al", "K'at", 
+	"Kan", "Kame", "Kej", "Q'anil",
+	"Toj", "T'zi'", "B'atz'", "E",
+	"Aj", "I'x", "Tz'ikin", "Ajmaq",
+	"No'j", "Tijax", "Kawoq"];
+
+let cholqij_day = cholqij_list[kin];
+
+//Calculate cholqij number
+const num = 4; //This is the cholqij number of Baktun 13
+x = Math.floor(Diff_In_Days / 13);
+y = 13 * x;
+cholqij_num = Diff_In_Days - y + num;
+
+document.getElementById("cholqijfull").innerHTML = cholqij_num + " " + cholqij_day;
