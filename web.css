@@ -93,7 +93,7 @@ body {
 .column {
   float: left;
   padding: 10px;
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF; */
 }
 /* Side column */
 .column.side {
