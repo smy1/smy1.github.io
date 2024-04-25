@@ -10,6 +10,8 @@ function topFunction() {
 
 /*PRODUCE CURRENT LONG COUNT
 Get current date and Baktun 13 date*/
+let mylc = document.getElementById("longcount");
+
 const date1 = new Date("2012-12-21");
 date1.setHours(0); //Default hour is at 08:00, set it to 00:00
 const date2 = new Date();
