@@ -26,11 +26,11 @@ let kin = Diff_In_Days % 20;
 
 //Get Cholq'ij full name and number
 const cholqij_list = ["Ajpu'",
-	"Imox", "Iq'", "Aq'ab'al", "K'at", 
-	"Kan", "Kame", "Kej", "Q'anil",
-	"Toj", "T'zi'", "B'atz'", "E",
-	"Aj", "I'x", "Tz'ikin", "Ajmaq",
-	"No'j", "Tijax", "Kawoq"];
+  "Imox", "Iq'", "Aq'ab'al", "K'at", 
+  "Kan", "Kame", "Kej", "Q'anil",
+  "Toj", "T'zi'", "B'atz'", "E",
+  "Aj", "I'x", "Tz'ikin", "Ajmaq",
+  "No'j", "Tijax", "Kawoq"];
 
 let cholqij_day = cholqij_list[kin];
 
@@ -41,5 +41,5 @@ y = 13 * x;
 let cholqij_num = Diff_In_Days - y + num;
 
 function mayan() {
-	document.getElementById("longcount").innerHTML = "Today's long count: " +baktun+ "." +katun+ "." +tun+ "." +winal+ "." +kin+ ",  " +cholqij_num+ " " +cholqij_day+ " (K'iche')";
+  document.getElementById("longcount").innerHTML = "Today's long count: " + baktun + "." + katun + "." + tun + "." + winal + "." + kin + ",  " + cholqij_num + " " + cholqij_day + " (K'iche')";
 }
