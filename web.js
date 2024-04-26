@@ -41,5 +41,5 @@ y = 13 * x;
 let cholqij_num = Diff_In_Days - y + num;
 
 function mayan() {
-  document.getElementById("longcount").innerHTML = "Today's long count: " + baktun + "." + katun + "." + tun + "." + winal + "." + kin + "  (Cholq'ij day: " + cholqij_num + " " + cholqij_day;
+  document.getElementById("longcount").innerHTML = "Today's long count: " + baktun + "." + katun + "." + tun + "." + winal + "." + kin + " (Cholq'ij day: " + cholqij_num + " " + cholqij_day + ")";
 }
