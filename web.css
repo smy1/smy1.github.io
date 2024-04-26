@@ -142,4 +142,6 @@ ul.pub {
 }
 .grid-item {
   padding: 0;
+  font-size: 13px; 
+  line-height: 0.9;
 }
