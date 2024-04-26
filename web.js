@@ -38,9 +38,8 @@ let cholqij_day = cholqij_list[kin];
 const num = 4; //This is the cholqij number of Baktun 13
 x = Math.floor(Diff_In_Days / 13);
 y = 13 * x;
-cholqij_num = Diff_In_Days - y + num;
+let cholqij_num = Diff_In_Days - y + num;
 
 function mayan() {
-	document.getElementById("longcount").innerHTML = "Today's long count: " +baktun+ "." +katun+ "." +tun+ "." +winal+ "." +kin+ ",  " +cholqij_num+ " " +cholqij_day+ " (K'iche');
-	//document.getElementById("cholqijfull").innerHTML = "Today's Cholq'ij: " + cholqij_num + " " + cholqij_day + " (K'iche')";
+	document.getElementById("longcount").innerHTML = "Today's long count: " +baktun+ "." +katun+ "." +tun+ "." +winal+ "." +kin+ ",  " +cholqij_num+ " " +cholqij_day+ " (K'iche')";
 }
