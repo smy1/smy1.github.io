@@ -137,11 +137,11 @@ ul.pub {
 /* Create a grid for the footer */
 .grid-container {
   display: grid;
-  grid-template-columns: 200px auto;
-  padding: 5px;
+  grid-template-columns: 100px auto;
+  padding: 0;
 }
 .grid-item {
-  padding: 10px;
+  padding: 0;
   /*font-size: 30px;*/
-  /*text-align: left;*/
+  text-align: left;
 }
