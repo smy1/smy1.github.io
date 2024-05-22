@@ -53,6 +53,9 @@
     x = Math.floor(Diff_In_Days / 13);
     y = 13 * x;
     cholqij_num = Diff_In_Days - y + num;
+    if (cholqij_num > 13) {
+      cholqij_num = cholqij_num - 13;
+    }
     
     document.getElementById("cholqijfull").innerHTML = cholqij_num + " " + cholqij_day + " (K'iche')";
   </script>
