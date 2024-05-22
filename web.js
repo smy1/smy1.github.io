@@ -39,6 +39,9 @@ const num = 4; //This is the cholqij number of Baktun 13
 x = Math.floor(Diff_In_Days / 13);
 y = 13 * x;
 let cholqij_num = Diff_In_Days - y + num;
+if (cholqij_num > 13) {
+  cholqij_num = cholqij_num - 13;
+}
 
 function mayan() {
   document.getElementById("longcount").innerHTML = "Today's long count: " + baktun + "." + katun + "." + tun + "." + winal + "." + kin + " (Cholq'ij day: " + cholqij_num + " " + cholqij_day + ")";
