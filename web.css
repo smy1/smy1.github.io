@@ -98,7 +98,7 @@ body {
 /* Side column */
 .column.side {
   width: 33%;
-  max-width: 800px
+  max-width: 500px
   padding-right: 10px;
 }
 /* Main column */
