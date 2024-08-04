@@ -98,12 +98,13 @@ body {
 /* Side column */
 .column.side {
   width: 33%;
-  max-width: 500px
+  max-width: 321px;
   padding-right: 10px;
 }
 /* Main column */
 .column.main {
   width: 67%;
+  max-width: 642px;
 }
 /* Clear floats after the columns */
 .row::after {
