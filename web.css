@@ -73,6 +73,7 @@ ul.nav {
 .whole {
   /*margin: 20px;*/
   padding: 0px 150px 20px;
+  /*padding-right: @media screen*/
   background-color: #FFFFFF;
 }
 
@@ -98,13 +99,13 @@ body {
 /* Side column */
 .column.side {
   width: 33%;
-  max-width: 321px;
+  /*max-width: 321px;*/
   padding-right: 10px;
 }
 /* Main column */
 .column.main {
   width: 67%;
-  max-width: 642px;
+  /*max-width: 642px;*/
 }
 /* Clear floats after the columns */
 .row::after {
