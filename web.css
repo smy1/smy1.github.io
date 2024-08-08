@@ -71,8 +71,7 @@ ul.nav {
 
 /* Style a wrapping box for the body */
 .whole {
-  max-width: 963px; /*1263*/
-  /*margin: auto;*/
+  /*max-width: 963px; /*1263*/
   /*padding: 0px 150px 20px;*/
   background-color: #FFFFFF;
 }
@@ -81,13 +80,12 @@ ul.nav {
 body {
    min-height: 400px;
    /*padding-top: 100px;*/
-   /*margin: auto;*/
    padding-bottom: 80px;
    clear: both;
 }
 * {
   box-sizing: border-box;
-  margin: auto;
+  /*margin: auto;*/
   /*background-color: #FFFFFF; */
 }
 
