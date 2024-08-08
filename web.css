@@ -71,7 +71,7 @@ ul.nav {
 
 /* Style a wrapping box for the body */
 .whole {
-  max-width: 1263px;
+  max-width: 963px; /*1263*/
   /*margin: auto;*/
   /*padding: 0px 150px 20px;*/
   background-color: #FFFFFF;
@@ -100,7 +100,7 @@ body {
 /* Side column */
 .column.side {
   width: 33%;
-  padding-right: 10px;
+  /*padding-right: 10px;*/
 }
 /* Main column */
 .column.main {
