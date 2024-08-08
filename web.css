@@ -72,7 +72,7 @@ ul.nav {
 /* Style a wrapping box for the body */
 .whole {
   max-width: 1263px;
-  margin: auto;
+  /*margin: auto;*/
   /*padding: 0px 150px 20px;*/
   background-color: #FFFFFF;
 }
@@ -80,15 +80,14 @@ ul.nav {
 /* Style the main body */
 body {
    min-height: 400px;
-   /*margin: auto;*/
    /*padding-top: 100px;*/
-   margin: auto;
+   /*margin: auto;*/
    padding-bottom: 80px;
    clear: both;
 }
 * {
   box-sizing: border-box;
-  /*margin: auto;*/
+  margin: auto;
   /*background-color: #FFFFFF; */
 }
 
@@ -101,13 +100,11 @@ body {
 /* Side column */
 .column.side {
   width: 33%;
-  /*max-width: 321px;*/
   padding-right: 10px;
 }
 /* Main column */
 .column.main {
   width: 67%;
-  /*max-width: 642px;*/
 }
 /* Clear floats after the columns */
 .row::after {
