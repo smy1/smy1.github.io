@@ -73,16 +73,17 @@ ul.nav {
 .whole {
   /*margin: 20px;*/
   max-width: 1263px;
-  /*padding: 0px 150px 20px;*/
-  padding-left: 150px;
-  padding-right: 150px;
-  padding-bottom: 20px;
+  padding: 0px 150px 20px;
+  /*padding-left: 150px;*/
+  /*padding-right: 150px;*/
+  /*padding-bottom: 20px;*/
   background-color: #FFFFFF;
 }
 
 /* Style the main body */
 body {
    min-height: 400px;
+  margin: auto;
    /*padding-top: 100px;*/
    /*margin-bottom: 100px;*/
    padding-bottom: 80px;
