@@ -79,13 +79,14 @@ ul.nav {
 /* Style the main body */
 body {
    min-height: 400px;
+   /*margin: 20px;*/
    /*padding-top: 100px;*/
    padding-bottom: 80px;
    clear: both;
 }
 * {
   box-sizing: border-box;
-  /*margin: 20px;*/
+  margin: 20px;
   /*margin: auto;*/
   /*background-color: #FFFFFF; */
 }
