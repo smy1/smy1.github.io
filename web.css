@@ -79,9 +79,9 @@ ul.nav {
 /* Style the main body */
 body {
    min-height: 400px;
-   margin: 5px;
+   /*margin: 5px;*/
    /*padding-top: 100px;*/
-   padding-bottom: 80px;
+   padding-bottom: 50px;
    clear: both;
 }
 * {
@@ -133,7 +133,9 @@ ul.pub {
    background-color: #FFF0F5; /* lavender blush*/
    padding-left: 30px;
    padding-top: 20px;
+   padding-bottom: 10px;
    text-align: left;
+   line-height: 1.1;
   /*border-top: 1.5px solid black;*/
 }
 /* Create a grid for the footer */
