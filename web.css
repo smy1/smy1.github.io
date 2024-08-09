@@ -86,12 +86,13 @@ body {
 }
 * {
   box-sizing: border-box;
-  margin: auto;
+  /*margin: auto;*/
   /*background-color: #FFFFFF; */
 }
 
 /* Create two unequal columns that floats next to each other */
 .column {
+  margin: auto;
   float: left;
   padding: 20px;
   background-color: #FFFFFF; 
