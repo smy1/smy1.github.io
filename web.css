@@ -79,7 +79,7 @@ ul.nav {
 /* Style the main body */
 body {
    min-height: 400px;
-   /*margin: 20px;*/
+   margin: 20px;
    /*padding-top: 100px;*/
    padding-bottom: 80px;
    clear: both;
@@ -92,7 +92,6 @@ body {
 
 /* Create two unequal columns that floats next to each other */
 .column {
-  margin: auto;
   float: left;
   padding: 20px;
   background-color: #FFFFFF; 
@@ -133,6 +132,7 @@ ul.pub {
    width: 100%;
    background-color: #FFF0F5; /* lavender blush*/
    padding-left: 30px;
+   padding-top: 60px;
    text-align: left;
   /*border-top: 1.5px solid black;*/
 }
