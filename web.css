@@ -78,10 +78,9 @@ ul.nav {
 
 /* Style the main body */
 body {
-   min-height: 400px;
+   min-height: 500px;
    /*margin: 5px;*/
-   /*padding-top: 100px;*/
-   padding-bottom: 70px;
+   padding-bottom: 80px;
    clear: both;
 }
 * {
