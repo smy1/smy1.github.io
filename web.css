@@ -132,16 +132,16 @@ ul.pub {
    width: 100%;
    background-color: #FFF0F5; /* lavender blush*/
    padding-left: 30px;
-   padding-top: 17px;
+   padding-top: 16px;
    padding-bottom: 10px;
    text-align: left;
-   line-height: 1.1;
+   /*line-height: 1.1;*/
   /*border-top: 1.5px solid black;*/
 }
 /* Create a grid for the footer */
 .grid-container {
   display: grid;
-  grid-template-columns: 20% 60%;
+  grid-template-columns: 25% 60%;
   padding: 0;
 }
 .grid-item {
