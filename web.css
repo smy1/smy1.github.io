@@ -121,7 +121,7 @@ body {
 /* Style lists without bullet points (for publication) */
 ul.pub {
   list-style-type: none;
-  line-height: 1.4;
+  line-height: 1.2;
   padding: 0px;
 }
 
