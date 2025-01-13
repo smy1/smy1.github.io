@@ -8,6 +8,15 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+/*CREATE A BUTTON FOR CV
+Get the button:*/
+let mycv = document.getElementById("myCV");
+
+// When the user clicks on the CV button, opens a new page
+function getCV() {
+  window.open("https://tinyurl.com/yc87sbmw");
+}
+
 /*PRODUCE CURRENT LONG COUNT
 Get current date and Baktun 13 date*/
 const date1 = new Date("2012-12-21");
