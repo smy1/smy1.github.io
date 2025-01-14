@@ -55,13 +55,10 @@ ul.nav {
 
 /* Style the CV button */
 #myCV {
-  /*position: fixed;
-  /*top: 10px; /* Place the button at the bottom of the page */
-  /*right: 30px; /* Place the button 30px from the right */
-  /*z-index: 99; /* Make sure it does not overlap */
   border: none;
   outline: none;
-  background-color: #FFDAB9; /* peach puff */
+  text-decoration: underline;
+  background-color: #FFF0F5;; /* same as header */
   padding: 15px;
   font-size: 25px;
 }
