@@ -1,20 +1,18 @@
+/*CREATE A BUTTON FOR CV
+Get the button:*/
+let mycv = document.getElementById("myCV");
+// When the user clicks on the CV button, opens a new page
+function getCV() {
+  window.open("https://tinyurl.com/y6cvucy5");
+}
+
 /*CREATE A BUTTON THAT SCROLLS UP
 Get the button:*/
 let mybutton = document.getElementById("myBtn");
-
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0; // For Safari
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
-
-/*CREATE A BUTTON FOR CV
-Get the button:*/
-let mycv = document.getElementById("myCV");
-
-// When the user clicks on the CV button, opens a new page
-function getCV() {
-  window.open("https://tinyurl.com/yc87sbmw");
 }
 
 /*PRODUCE CURRENT LONG COUNT
