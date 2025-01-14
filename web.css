@@ -33,10 +33,6 @@ ul.nav {
   text-align: center;
   padding: 15px 0px 10px;
   border-bottom: 1.5px solid black;
-  /*position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;*/
 }
 /* Navigating links*/
 .nav li {
@@ -58,7 +54,8 @@ ul.nav {
   border: none;
   outline: none;
   text-decoration: underline;
-  background-color: #FFF0F5;; /* same as header */
+  color: blue;
+  background-color: #FFF0F5; /* same as header */
   padding: 15px;
   font-size: 25px;
 }
