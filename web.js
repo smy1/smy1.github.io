@@ -51,5 +51,5 @@ if (cholqij_num > 13) {
 }
 
 function mayan() {
-  document.getElementById("longcount").innerHTML = "Today's long count: " + baktun + "." + katun + "." + tun + "." + winal + "." + kin + " (Cholq'ij day: " + cholqij_num + " " + cholqij_day + ")";
+  document.getElementById("longcount").innerHTML = "Today's Mayan long count: " + baktun + "." + katun + "." + tun + "." + winal + "." + kin + " (Cholq'ij day: " + cholqij_num + " " + cholqij_day + ")";
 }
