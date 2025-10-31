@@ -134,6 +134,8 @@ body {
 ul.pub {
   list-style-type: none;
   padding: 0px;
+  text-indent: -30px; /* Moves the first line 30px to the left */
+  padding-left: 30px; /* Shifts the entire paragraph 30px to the right */
 }
 
 /* Style the footer */
