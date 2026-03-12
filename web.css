@@ -155,7 +155,7 @@ ul.pub {
 /* Create a grid for the footer */
 .grid-container {
   display: grid;
-  grid-template-columns: 35% 50%;
+  grid-template-columns: 30% 55%; /*35% 50%;*/
   padding: 0;
 }
 .grid-item {
