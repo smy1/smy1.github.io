@@ -3,7 +3,7 @@ Get the button:*/
 let mycv = document.getElementById("myCV");
 // When the user clicks on the CV button, opens a new page
 function getCV() {
-  window.open("https://tinyurl.com/y6cvucy5");
+  window.open("https://drive.google.com/file/d/1fPWM_OXJLPEwFGI5_9yiZyZR8AmwxApb/view?usp=sharing");
 }
 
 /*CREATE A BUTTON THAT SCROLLS UP
