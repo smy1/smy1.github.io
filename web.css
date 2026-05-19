@@ -111,7 +111,7 @@ body {
 /* Side column */
 .column.side {
   width: 33%;
-  padding-right: 10px;
+  padding-right: 5px;
 }
 /* Main column */
 .column.main {
