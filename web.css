@@ -84,8 +84,8 @@ ul.nav {
 
 /* Style a wrapping box for the body */
 .whole {
-  max-width: 1063px; /*1263*/
-  padding: 0px 75px 20px; /*0px 100px 20px*/
+  max-width: 1263px; /*1063*/
+  padding: 0px 70px 20px; /*0px 100px 20px*/
   background-color: #FFFFFF;
 }
 
