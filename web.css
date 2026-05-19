@@ -84,7 +84,7 @@ ul.nav {
 
 /* Style a wrapping box for the body */
 .whole {
-  max-width: 1200px; /*1063, 1263*/
+  max-width: 1200px; /*1063*/
   padding: 0px 70px 20px; /*0px 100px 20px*/
   background-color: #FFFFFF;
 }
@@ -110,12 +110,12 @@ body {
 }
 /* Side column */
 .column.side {
-  width: 33%;
+  width: 30%; /*33%*/
   padding-right: 5px;
 }
 /* Main column */
 .column.main {
-  width: 67%;
+  width: 70%; /*67%*/
 }
 /* Clear floats after the columns */
 .row::after {
